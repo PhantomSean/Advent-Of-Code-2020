@@ -1,7 +1,9 @@
 with open("Day 5/input.txt") as file:
     lines = [list(line.rstrip()) for line in file]
 
-# lines = [['B','F','F','F','B','B','F','R','R','R'],['F','F','F','B','B','B','F','R','R','R'],['B','B','F','F','B','B','F','R','L','L']]
+test_lines = [ ['B','F','F','F','B','B','F','R','R','R'],
+          ['F','F','F','B','B','B','F','R','R','R'],
+          ['B','B','F','F','B','B','F','R','L','L']]
 seat_ids = []
 for line in lines:
     row_upper = 127
